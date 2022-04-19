@@ -24,6 +24,12 @@ int main() {
 	return EXIT_SUCCESS;
 }
 
+/// <summary>
+/// Doubles an array's size
+/// </summary>
+/// <param name="arr">The array to be expanded</param>
+/// <param name="arrSize">The size of the new array</param>
+/// <returns>Array of double size with 0's filling the empty space</returns>
 int* expandArray(int arr[], int arrSize) {
 	int newArrSize = arrSize * 2;
 	int* newArr = new int[newArrSize];
